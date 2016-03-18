@@ -1,0 +1,101 @@
+.nopadding {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #fff099;
+}
+
+.my-site {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    display: inline;
+    color: 	#9a9585;
+    font-family: "Georgia", serif;
+}
+
+h3 {
+    color: 	#fd7567;
+    font-family: "Verdana", sans-serif;
+}
+
+.heading {
+    margin: 3% auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.input-group-btn select,
+.input-group-btn label {
+	   border-color: #ffc100;
+}
+
+.view-list {
+    overflow: scroll;
+    height: 500px;
+}
+
+#mapDiv {
+    width: 100%;
+    height: 500px;
+    margin: 0 0 15% 0;
+}
+
+.info-window {
+    width: 250px;
+}
+
+.info-window p {
+    margin: 3px;
+}
+
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 2em;
+    margin: auto auto auto 20px;
+  }
+
+  .info-window {
+    width: 150px;
+  }
+
+  .menu-icon {
+    display: inline;
+    width: 30px;
+    height: 30px;
+  }
+
+  .mainDiv {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+  }
+
+  .view-list {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  h1 {
+    font-size: 1.5em;
+  }
+}
